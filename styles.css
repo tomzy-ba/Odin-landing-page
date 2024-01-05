@@ -1,12 +1,14 @@
-body {
+html body {
+    padding:0;
+    margin:0;
+}
+
+#notbody {
     font-family: "roboto";
     display: flex;
     flex-direction: column;
-    flex: 1;
-    margin:0;
-    padding: 0;
-    min-height: 100vh;
-    align-items: center;
+    flex:1;
+    min-height:100vh;
     justify-content: space-between;
 }
 
@@ -38,24 +40,38 @@ a {
     font-weight:bold;
 }
 
-#sanctumrandomlist {
-    list-style-type: none;
+#sanctumpart2 {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sanctumrandomlist {
+    display: flex;
+    list-style-type: none;
     gap:50px;
 }
 
 #sanctumrandomlist img {
-    width: 100px;
     display: flex;
+    width: 100px;
+    border-radius: 20px;
 }
 
 #sanctumpart3 {
     display: flex;
+    flex-direction: column;
     background-color: #e5e7eb;
     color: #1f2937;
     width: 100%;
+    align-items: center;
 }
 
+#gandhi {
+    display: flex;
+    font-weight: bold;
+    margin-left: 700px;
+}
 
 #sanctumfooter {
     display: flex;
