@@ -15,10 +15,11 @@ a {
 }
 
 #sanctumpart1 {
+    display: flex;
+    flex-direction: column;
     background-color: #1f2937;
     color: #f9faf8;
-    margin:0 auto;
-    width:100%;
+    width: 100%;
 }
 
 #sanctumheader {
@@ -37,11 +38,24 @@ a {
     font-weight:bold;
 }
 
+#sanctumrandomlist {
+    list-style-type: none;
+    display: flex;
+    gap:50px;
+}
+
+#sanctumrandomlist img {
+    width: 100px;
+    display: flex;
+}
 
 #sanctumpart3 {
+    display: flex;
     background-color: #e5e7eb;
     color: #1f2937;
+    width: 100%;
 }
+
 
 #sanctumfooter {
     display: flex;
@@ -49,6 +63,7 @@ a {
     justify-content: center;
     background-color: #1f2937;
     color: #f9faf8;
+    width: 100%;
 }
 
 
@@ -65,23 +80,3 @@ a {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-img {width: 10px;
-    height: 10px;    
-}
