@@ -1,0 +1,87 @@
+body {
+    font-family: "roboto";
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin:0;
+    padding: 0;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+#sanctumpart1 {
+    background-color: #1f2937;
+    color: #f9faf8;
+    margin:0 auto;
+    width:100%;
+}
+
+#sanctumheader {
+    display: flex;
+    justify-content: space-between;
+}
+
+#sanctumheaderlist {
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+}
+
+#sanctumbig {
+    font-size:48px;
+    font-weight:bold;
+}
+
+
+#sanctumpart3 {
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+#sanctumfooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img {width: 10px;
+    height: 10px;    
+}
