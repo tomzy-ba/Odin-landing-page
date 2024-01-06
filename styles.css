@@ -1,16 +1,12 @@
 body {
-    margin:0;
-    padding: 0;
-}
-
-#notbody {
     font-family: "roboto";
     display: flex;
     flex-direction: column;
     flex:1;
     min-height:100vh;
-    justify-content: space-between;
+    margin: 0;
 }
+
 
 a {
     text-decoration: none;
@@ -18,41 +14,57 @@ a {
 
 #sanctumpart1 {
     display: flex;
-    flex-direction: column;
     background-color: #1f2937;
+    padding: 50px 300px;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+#part1button {
+    width: 100px;
+    height: 28px;
+    border:solid;
+    border-color: #3882f6;
+    border-radius: 5px;
+    background-color: #3882f6;
     color: #f9faf8;
-    width: 100%;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+#sanctumpart1 img {
+    width: 500px;
+    height: auto;
+    padding-left: 30px;
 }
 
 #sanctumheader {
     display: flex;
     justify-content: space-between;
-
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 0 300px;
 }
 
 #sanctumheaderlist {
     display: flex;
     list-style: none;
     font-size: 18px;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
 }
-
-#container {
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-#container img {
-    height: 200px;
+#sanctumheaderlist a {
+    color:#e5e7eb;
 }
 
 #leftcontainer {
     display: flex;
     flex-direction: column;
-    margin: 0;
 }
 #leftcontainer p {
     margin: 0;
+    color: #e5e7eb;
 }
 
 #sanctumbig {
@@ -60,11 +72,19 @@ a {
     font-weight:bold;
     padding: 0;
     margin: 0;
+    color: #f9faf8;
+}
+
+#rightcontainer {
+    display: flex;
 }
 
 #sanctumpart2 {
     display: flex;
     flex-direction: column;
+    margin: 0 300px;
+    align-items: center;
+    text-align: center;
 }
 
 #sanctumrandomlist {
@@ -76,7 +96,7 @@ a {
 
 #sanctumrandomlist img {
     display: flex;
-    width: 100px;
+    width: 150px;
     border-radius: 20px;
     padding: 20px;
 }
@@ -85,9 +105,12 @@ a {
     display: flex;
     flex-direction: column;
     background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
     color: #1f2937;
     width: 100%;
     align-items: center;
+    font-weight: lighter;
 }
 
 #gandhi {
